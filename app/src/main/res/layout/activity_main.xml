@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.lternst.flapflapbirdy.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="French Tanks of World War II"
+        android:textSize="29sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="@android:color/black" />
+
+    <ImageView
+        android:src="@drawable/elc_amx"
+        android:layout_width="match_parent"
+        android:layout_height="300"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75"
+        android:text="The AMX ELC bis was a prototype for a tank destroyer which was to be small and light enough to be deployed via airlift, yet powerful enough to destroy German Tigers and Panthers frontally"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="#4632d1"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="com.example.lternst.flapflapbirdy.MainActivity">
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="128dp"
+            android:text="< Previous"
+            android:textSize="17"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="128dp"
+            android:layout_height="100dp"
+            android:text="Details"
+            android:textSize="20" />
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="128dp"
+            android:text="Next >"
+            android:textSize="17"/>
+
+    </LinearLayout>
+
+ </LinearLayout>
